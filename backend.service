@@ -1,0 +1,10 @@
+[Unit]
+Description=Qoc_Backend
+
+[Service]
+#User=yabderra
+ExecStart=/opt/application/qooc_tools/run_qoc_backend.sh
+WorkingDirectory=/opt/application/tools/Backend
+
+[Install]
+WantedBy=multi-user.target
